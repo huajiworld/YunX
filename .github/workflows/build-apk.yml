@@ -8,8 +8,8 @@ name: Nightly Build APK
 
 on:
   # UTC 16:00 = 北京时间 00:00
-  schedule:
-    - cron: '0 16 * * *'
+  #schedule:
+  #  - cron: '0 16 * * *'
   # 支持在 Actions 页手动触发
   workflow_dispatch:
 
